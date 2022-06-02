@@ -12,7 +12,7 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-cd ~/work/NEWIFI3/NEWIFI3/openwrt/package/lean &&
+cd ~/work/R6800/R6800/openwrt/package/lean &&
 rm -rf luci-theme-argon && 
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git &&
 cd ../.. &&
